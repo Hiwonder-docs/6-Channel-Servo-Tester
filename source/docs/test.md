@@ -274,7 +274,7 @@ python -m lerobot.teleoperate --robot.type=so101_follower --robot.port=COM24 --r
 
 ---
 
-> [!CAUTION]
+> [!注意]
 >
 > 如果你有使用拓展坞，需要注意，两个摄像头的USB不能都接在拓展坞上。
 
