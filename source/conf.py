@@ -17,7 +17,7 @@ def replace_gfm_callouts(app, docname, source):
         return f"```{{{kind}}}\n{body}\n```"
 
     text = re.sub(
-        r'> \[!(NOTE|TIP|WARNING|IMPORTANT|CAUTION|注意)\]\n((?:>.*\n?)+)',
+        r'> \[!(NOTE|TIP|WARNING|IMPORTANT|CAUTION)\]\n((?:>.*\n?)+)',
         repl,
         text,
         flags=re.IGNORECASE
